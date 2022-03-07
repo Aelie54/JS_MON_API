@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,11 +9,12 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <title>Document</title>
 </head>
+
 <body>
     <div class="page">
-        <div class="content">
-            <h1> Subscribe</h1>
+        <div class="content" id="contenu">
 
+            <h1> Subscribe</h1>
             <form action="#" id="form-suscribe">
                 <div class="form-example">
                     <label for="email">ton Email: </label>
@@ -41,9 +43,14 @@
                     <input type="submit" value="Sign In" class="submit">
                 </div>
             </form>
+
+
         </div>
     </div>
 </body>
+
+
+<button onclick="window.location.href='Articles.php'">voir les articles</button>
 
 <script src="./src/signin.js"> </script>
 <script src="./src/suscribe.js"> </script>

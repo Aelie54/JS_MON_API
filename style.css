@@ -1,0 +1,48 @@
+label
+{
+	display: block;
+	width: 150px;
+	float: left;
+}
+
+.content{
+
+border: 1px solid rgb(199, 194, 194); 
+display: block;
+margin: 0 auto;
+text-align:justify;
+padding: 30px;
+-webkit-box-shadow: 0px 0px 21px -6px rgba(0,0,0,0.48); 
+box-shadow: 0px 0px 21px -6px rgba(0,0,0,0.48);
+border-radius:20px;
+background-color : rgba(252,243,243,0.75);
+background-color : hsla(0,60%,97%,0.75);
+background-color : #FCF3F3BF; 
+padding-bottom: 60px;
+}
+
+.page{
+	display: flex;
+	margin-top:8%;
+	}
+
+body{
+	background-image: url("https://images.unsplash.com/photo-1514454529242-9e4677563e7b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80");
+}
+
+.submit{
+	border: none; 
+	width: 100%;
+	background-color: aquamarine;
+	border-radius: 10px;
+	-webkit-box-shadow: 0px 0px 21px -6px rgba(0,0,0,0.48); 
+	box-shadow: 0px 0px 8px -6px rgba(0,0,0,0.48);
+	text-decoration: solid;
+	height: 30px;
+}
+
+input{
+	background-color : rgba(255,255,255,0.5);
+	background-color : hsla(0,0%,100%,0.5);
+	background-color : #FFFFFFB3; /* Norme W3C, CSS4 */
+}
